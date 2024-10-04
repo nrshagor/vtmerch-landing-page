@@ -9,16 +9,58 @@ const HeroSection = () => {
         </div>
         <div className={styles.productGrid}>
           <div className={styles.product}>
-            <img src="/product1.jpg" alt="Product 1" />
+            <div className={styles.imageWrapper}>
+              <img src="/img/img9.png" alt="Product 1" />
+            </div>
+
             <p>Men&apos;s Black Crewneck</p>
-            <span>$24.99</span>
+            <div className={styles.prices}>
+              <span>$34.99</span>
+              <span>$34.99</span>
+            </div>
           </div>
           <div className={styles.product}>
-            <img src="/product2.jpg" alt="Product 2" />
+            <div className={styles.imageWrapper}>
+              <img src="/img/img10.png" alt="Product 2" />
+            </div>
+
             <p>Men&apos;s Black Hoodie</p>
-            <span>$34.99</span>
+            <div className={styles.prices}>
+              <span>$34.99</span>
+              <span>$34.99</span>
+            </div>
           </div>
-          {/* Repeat for other products */}
+          <div className={styles.product}>
+            <div className={styles.imageWrapper}>
+              {" "}
+              <img src="/img/img11.jpeg" alt="Product 1" />
+            </div>{" "}
+            <p>Men&apos;s Black Crewneck</p>
+            <div className={styles.prices}>
+              <span>$34.99</span>
+              <span>$34.99</span>
+            </div>
+          </div>
+          <div className={styles.product}>
+            <div className={styles.imageWrapper}>
+              <img src="/img/img12.png" alt="Product 2" />
+            </div>{" "}
+            <p>Men&apos;s Black Hoodie</p>
+            <div className={styles.prices}>
+              <span>$34.99</span>
+              <span>$34.99</span>
+            </div>
+          </div>
+          <div className={styles.product}>
+            <div className={styles.imageWrapper}>
+              <img src="/img/img11.jpeg" alt="Product 1" />
+            </div>{" "}
+            <p>Men&apos;s Black Crewneck</p>
+            <div className={styles.prices}>
+              <span>$34.99</span>
+              <span>$34.99</span>
+            </div>
+          </div>
         </div>
       </section>
     </div>
