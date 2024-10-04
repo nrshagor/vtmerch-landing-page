@@ -1,0 +1,29 @@
+.promoSection {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.promoSection h2 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product p {
+  margin: 10px 0;
+}
+
+.product span {
+  font-size: 1.2rem;
+  color: #333;
+}
