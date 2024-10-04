@@ -60,21 +60,6 @@
   transform: scale(1.2); /* Scale image on hover */
 }
 
-.prices {
-  display: flex;
-  flex-direction: row;
-  column-gap: 20px;
-}
-
-.prices span {
-  font-size: 1.2rem;
-  color: #fff;
-}
-
-.prices span:nth-child(2) {
-  text-decoration: line-through;
-}
-
 .product p {
   font-family: Inter;
   font-size: 16px;
