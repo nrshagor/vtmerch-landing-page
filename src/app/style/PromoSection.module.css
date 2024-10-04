@@ -38,20 +38,19 @@
 }
 
 .product {
-  width: 386.5px;
-  height: 458px;
+  width: 100%;
+  height: auto;
   border-radius: 10px;
   background: #ffffff;
   padding: 20px;
   display: flex;
-  gap: 13px;
+  gap: 20px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
 .product img {
   width: 100%;
-  height: 333px;
   border-radius: 10px;
 }
 
