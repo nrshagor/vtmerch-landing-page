@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.nav .menuButton {
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 24px;
+}
+
+.nav .menuButton span {
+  background-color: #fff;
+  width: 30px;
+  height: 3px;
+  margin: 3px 0;
+}
