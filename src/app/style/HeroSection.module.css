@@ -2,7 +2,7 @@
   position: relative;
   background: #ea2127;
   color: #fff;
-  padding: 60px 0;
+  padding: 60px 0px;
   height: 940px;
   text-align: center;
 }
@@ -26,9 +26,9 @@
   position: absolute;
   top: 190px;
   left: 160px;
-  width: 100%;
+  width: 100vw;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20px, 2fr));
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
 }
 .product {
