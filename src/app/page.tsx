@@ -1,5 +1,7 @@
 import HeroSection from "./components/HeroSection";
+import MissionSection from "./components/MissionSection";
 import PromoSection from "./components/PromoSection";
+import SignedCollection from "./components/SignedCollection";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -7,6 +9,8 @@ export default function Home() {
     <div className={styles.page}>
       <HeroSection />
       <PromoSection />
+      <SignedCollection />
+      <MissionSection />
     </div>
   );
 }

@@ -1,11 +1,22 @@
 import React from "react";
 import styles from "@/app/style/Header.module.css";
+import Image from "next/image";
 const Header = () => {
   return (
     <div>
       <header className={styles.header}>
         <div className={styles.logo}>
-          <img src="/Valuetainment.svg" alt="VTMerch Logo" />
+          <div className={styles.image}>
+            <Image
+              src="/ValuetainmentWhite.svg"
+              alt="VTMerch Logo"
+              width={100}
+              height={100}
+            />
+          </div>
+          <div className={styles.text}>
+            <h3>VTMERCH</h3>
+          </div>
         </div>
         <nav className={styles.nav}>
           <button className={styles.menuButton}>

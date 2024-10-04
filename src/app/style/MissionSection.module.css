@@ -1,0 +1,21 @@
+.missionSection {
+  background-color: #f00;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.missionSection h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.missionSection p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.missionSection .image img {
+  width: 100%;
+  max-width: 400px;
+}

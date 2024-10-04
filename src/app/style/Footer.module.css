@@ -1,0 +1,26 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.subscribeForm {
+  margin-bottom: 20px;
+}
+
+.subscribeForm input {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscribeForm button {
+  padding: 10px 20px;
+  background-color: #f00;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}

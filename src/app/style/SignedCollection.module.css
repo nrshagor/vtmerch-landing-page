@@ -1,0 +1,22 @@
+.signedSection {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.bookGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.book img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.book p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}

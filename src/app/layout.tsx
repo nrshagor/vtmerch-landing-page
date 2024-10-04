@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -11,6 +12,11 @@ const geistSans = localFont({
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
+  weight: "100 900",
+});
+const actOfRejection = localFont({
+  src: "./fonts/Act_Of_Rejection.ttf",
+  variable: "--font-actOfRejection",
   weight: "100 900",
 });
 
@@ -26,9 +32,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${actOfRejection.variable}`}
+      >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
