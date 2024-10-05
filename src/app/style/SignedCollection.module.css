@@ -3,20 +3,75 @@
   color: #fff;
   padding: 60px 0;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.signedSectionLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.text {
+  width: 549px;
+}
+.text p {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 49px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.text h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-align: left;
+  background: -webkit-linear-gradient(180deg, #de2a2f 0%, #ef5256 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 186px;
+  height: 52px;
+  padding: 16px 32px 16px 32px;
+  border-radius: 12px;
+  border: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+  text-align: center;
+}
+.bookFlex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
 }
 
-.bookGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+.book {
+  width: 370px;
+  height: 588px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .book img {
   width: 100%;
-  border-radius: 10px;
 }
-
-.book p {
-  margin-top: 10px;
-  font-size: 1.2rem;
+.book:nth-child(1) {
+  width: 340px;
 }
