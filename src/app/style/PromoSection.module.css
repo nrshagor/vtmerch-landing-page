@@ -13,18 +13,18 @@
 }
 .promoSection .title h2 {
   font-family: Montserrat;
-  font-size: 70px;
+  font-size: 3.6vw;
   font-weight: 600;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.02vw;
   text-align: start;
   text-transform: uppercase;
   color: black;
 }
 .promoSection h2 span {
   font-family: "Montserrat", sans-serif;
-  font-size: 70px;
+  font-size: 3.6vw;
   font-weight: 600;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.02vw;
   color: #f6f5f5;
   text-shadow: 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black,
     0px 0px 1px black;
@@ -55,11 +55,10 @@
   box-shadow: 1px 1px 4px 0px rgba(141, 141, 141, 0.2);
 }
 
-/* Wrapper for the image */
 .imageWrapper {
   width: 100%;
   border-radius: 10px;
-  overflow: hidden; /* Ensures image doesn't overflow when scaled */
+  overflow: hidden;
   position: relative;
 }
 
@@ -67,11 +66,11 @@
   width: 100%;
   border-radius: 10px;
   object-fit: cover;
-  transition: transform 0.4s ease; /* Smooth zoom transition */
+  transition: transform 0.4s ease;
 }
 
 .imageWrapper:hover img {
-  transform: scale(1.1); /* Zoom the image on hover */
+  transform: scale(1.1);
 }
 
 .product p {
@@ -99,4 +98,31 @@
 .product .prices span:nth-child(2) {
   text-decoration: line-through;
   color: #9b9b9b;
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .promoSection {
+    gap: 20px;
+  }
+  .promoSection .title h2 {
+    font-size: 18px;
+  }
+  .promoSection h2 span {
+    font-size: 18px;
+  }
+  .productGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
 }

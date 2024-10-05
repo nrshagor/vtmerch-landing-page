@@ -6,26 +6,28 @@
   background: #ea2127;
 }
 .logo {
-  width: 790px;
+  width: 57vw;
   height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  column-gap: 20px;
 }
 
 .logo .image img {
-  width: 115px;
-  height: 115px;
+  width: 6vw;
+  height: 6vw;
 }
 
 .logo .text {
-  width: 665px;
+  width: 48.7vw;
+  padding: 4px;
 }
 .logo .text h3 {
-  font-size: 112px;
+  font-size: 7.1vw;
   letter-spacing: 12px;
-  text-align: center;
+  /* text-align: center; */
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   color: #ffffff;
@@ -37,13 +39,27 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 40px;
-  height: 40px;
+  width: 3vw;
+  height: 3vw;
 }
 
 .nav .menuButton span {
   background-color: #ffffff;
-  width: 40px;
-  height: 4px;
+  width: 3vw;
+  height: 0.3vw;
   border-radius: 50px;
+}
+@media (max-width: 480px) {
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
 }

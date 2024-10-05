@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section className={styles.heroSection}>
       <div className={styles.heroText}>
-        <h1>Future Looks Bright!</h1>
+        <h1>future looks brights!</h1>
       </div>
       <div className={styles.productGrid}>
         <div className={styles.product}>
@@ -12,7 +12,7 @@ const HeroSection = () => {
             <img src="/img/img9.png" alt="Product 1" />
           </div>
 
-          <p>Men&apos;s Black Crewneck</p>
+          <p>Army Green Active Short Sleeve</p>
           <div className={styles.prices}>
             <span>$34.99</span>
             <span>$34.99</span>
@@ -23,7 +23,7 @@ const HeroSection = () => {
             <img src="/img/img10.png" alt="Product 2" />
           </div>
 
-          <p>Men&apos;s Black Hoodie</p>
+          <p>Army Green Active Short Sleeve</p>
           <div className={styles.prices}>
             <span>$34.99</span>
             <span>$34.99</span>
@@ -33,7 +33,7 @@ const HeroSection = () => {
           <div className={styles.imageWrapper}>
             <img src="/img/img11.jpeg" alt="Product 1" />
           </div>
-          <p>Men&apos;s Black Crewneck</p>
+          <p>Army Green Active Short Sleeve</p>
           <div className={styles.prices}>
             <span>$34.99</span>
             <span>$34.99</span>
@@ -43,7 +43,7 @@ const HeroSection = () => {
           <div className={styles.imageWrapper}>
             <img src="/img/img12.png" alt="Product 2" />
           </div>
-          <p>Men&apos;s Black Hoodie</p>
+          <p>Army Green Active Short Sleeve</p>
           <div className={styles.prices}>
             <span>$34.99</span>
             <span>$34.99</span>
@@ -53,7 +53,7 @@ const HeroSection = () => {
           <div className={styles.imageWrapper}>
             <img src="/img/img11.jpeg" alt="Product 1" />
           </div>
-          <p>Men&apos;s Black Crewneck</p>
+          <p>Army Green Active Short Sleeve</p>
           <div className={styles.prices}>
             <span>$34.99</span>
             <span>$34.99</span>
