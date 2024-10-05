@@ -11,11 +11,16 @@
 .signedSectionLeft {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
+  row-gap: 20px;
 }
 .text {
   width: 549px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
 }
 .text p {
   font-family: "Montserrat", sans-serif;
@@ -35,7 +40,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.btn {
+.shopNowBtn {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -43,7 +48,7 @@
   gap: 15px;
   width: 186px;
   height: 52px;
-  padding: 16px 32px 16px 32px;
+  padding: 16px 32px;
   border-radius: 12px;
   border: none;
   font-family: Inter;
@@ -51,7 +56,41 @@
   font-weight: 500;
   letter-spacing: 0.005em;
   text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #f5f5f5; /* Optional: Button background */
+  transition: background-color 0.3s ease, transform 0.1s ease; /* Transition for hover and click */
 }
+
+.shopNowBtn svg {
+  transition: transform 0.3s ease;
+}
+
+.shopNowBtn:hover {
+  background-color: #d5aeae;
+}
+
+.shopNowBtn:hover svg {
+  transform: translateX(8px);
+}
+
+.shopNowBtn:active {
+  transform: scale(0.95);
+  background-color: #dcdcdc;
+}
+
+.shopNowBtn:active svg {
+  transform: translateX(-10px);
+}
+
+.signature {
+  width: 754px;
+  height: 223px;
+}
+.signature img {
+  width: 82%;
+}
+
 .bookFlex {
   display: flex;
   flex-direction: row;
