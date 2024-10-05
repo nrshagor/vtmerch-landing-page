@@ -12,7 +12,9 @@ const PromoSection = () => {
 
       <div className={styles.productGrid}>
         <div className={styles.product}>
-          <img src="/img/hat1.jpeg" alt="White Cap" />
+          <div className={styles.imageWrapper}>
+            <img src="/img/hat1.jpeg" alt="White Cap" />
+          </div>
           <p>Army Green Active Short Sleeve</p>
           <div className={styles.prices}>
             <span>$34.99</span>
@@ -20,7 +22,10 @@ const PromoSection = () => {
           </div>
         </div>
         <div className={styles.product}>
-          <img src="/img/hat2.jpeg" alt="Black Beanie" />
+          <div className={styles.imageWrapper}>
+            <img src="/img/hat2.jpeg" alt="Black Beanie" />
+          </div>
+
           <p>Army Green Active Short Sleeve</p>
           <div className={styles.prices}>
             <span>$34.99</span>
@@ -28,7 +33,10 @@ const PromoSection = () => {
           </div>
         </div>
         <div className={styles.product}>
-          <img src="/img/hat3.jpeg" alt="Black Beanie" />
+          <div className={styles.imageWrapper}>
+            <img src="/img/hat3.jpeg" alt="Black Beanie" />
+          </div>
+
           <p>Army Green Active Short Sleeve</p>
           <div className={styles.prices}>
             <span>$34.99</span>
@@ -36,7 +44,10 @@ const PromoSection = () => {
           </div>
         </div>
         <div className={styles.product}>
-          <img src="/img/hat4.jpeg" alt="Black Beanie" />
+          <div className={styles.imageWrapper}>
+            <img src="/img/hat4.jpeg" alt="Black Beanie" />
+          </div>
+
           <p>Army Green Active Short Sleeve</p>
           <div className={styles.prices}>
             <span>$34.99</span>

@@ -57,7 +57,7 @@
 }
 
 .imageWrapper:hover img {
-  transform: scale(1.2); /* Scale image on hover */
+  transform: scale(1.1); /* Scale image on hover */
 }
 
 .product p {
