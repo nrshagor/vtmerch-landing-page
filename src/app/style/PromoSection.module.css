@@ -103,15 +103,19 @@
 @media (max-width: 480px) {
   .promoSection {
     gap: 20px;
+    padding: 20px 20px;
   }
   .promoSection .title h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
   .promoSection h2 span {
-    font-size: 18px;
+    font-size: 20px;
   }
   .productGrid {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .product .prices span {
+    font-size: 14px;
   }
 }
 
