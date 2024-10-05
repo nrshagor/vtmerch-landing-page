@@ -46,15 +46,18 @@ const Footer = () => {
               Available between 8AM to 8PM. Ready to answer your questions.
             </h3>
             <div className={styles.contactIcon}>
-              <img src="" alt="" />
-              <p>013456789</p>
+              <img src="/icon/telephone.svg" alt="" />
+              <span>013456789</span>
             </div>
             <div className={styles.contactIcon}>
-              <img src="" alt="" />
-              <p>store@valuetainment.com</p>
+              <img src="/icon/email.svg" alt="" />
+              <span>store@valuetainment.com</span>
             </div>
             <div className={styles.socialIcon}>
-              <img src="" alt="" />
+              <img src="/icon/facebook.svg" alt="" />
+              <img src="/icon/twitter.svg" alt="" />
+              <img src="/icon/linkedin.svg" alt="" />
+              <img src="/icon/instagram-logo.svg" alt="" />
             </div>
           </div>
         </div>

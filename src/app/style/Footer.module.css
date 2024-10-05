@@ -39,11 +39,12 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  column-gap: 80px;
 }
 .footerSectionMiddleLeft {
   width: 517px;
   display: flex;
-  row-gap: 20px;
+  row-gap: 40px;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -70,33 +71,99 @@
   width: 40%;
   display: flex;
   flex-direction: column;
-  row-gap: 25px;
+  row-gap: 15px;
 }
 .subscribeForm {
-  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
 }
 
 .subscribeForm input {
   padding: 10px;
-  margin-right: 10px;
-  border: none;
-  border-radius: 5px;
+  border: 1px solid #ffffff80;
+  background: transparent;
+  color: white;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+  outline: none;
+}
+
+.subscribeForm input::placeholder {
+  color: #ffffff80;
+  text-align: center;
+}
+
+.subscribeForm input:focus {
+  border: 1px solid #ffffff;
+  background: transparent;
+  outline: none;
 }
 
 .subscribeForm button {
   padding: 10px 20px;
-  background-color: #f00;
+  background: #ffffff;
   border: none;
-  color: #fff;
-  border-radius: 5px;
+  color: #000000;
+  border-radius: 15px;
   cursor: pointer;
 }
-
+.contact h2,
+.products h2,
+.services h2 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.contact p,
+.products p,
+.services p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #ffffffcc;
+}
+.contact h3 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #ffffffcc;
+}
+.contactIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 20px;
+}
+.socialIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 20px;
+  cursor: pointer;
+}
+.socialIcon img:hover {
+  background: rgb(44, 44, 44);
+}
 .footerSectionBottom {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 30px;
 }
 .footerSectionBottom p {
   font-family: Inter;
