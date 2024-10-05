@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "@/app/style/Footer.module.css";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer className={styles.footerSection}>
       <div className={styles.footerSectionTop}>
         <div className={styles.logo}>
-          <img src="./ValuetainmentRed.svg" alt="" />
+          <Image height={100} width={100} src="./ValuetainmentRed.svg" alt="" />
         </div>
         <h3>VTMERCH</h3>
       </div>
@@ -46,18 +47,23 @@ const Footer = () => {
               Available between 8AM to 8PM. Ready to answer your questions.
             </h3>
             <div className={styles.contactIcon}>
-              <img src="/icon/telephone.svg" alt="" />
+              <Image height={20} width={20} src="/icon/telephone.svg" alt="" />
               <span>013456789</span>
             </div>
             <div className={styles.contactIcon}>
-              <img src="/icon/email.svg" alt="" />
+              <Image height={20} width={20} src="/icon/email.svg" alt="" />
               <span>store@valuetainment.com</span>
             </div>
             <div className={styles.socialIcon}>
-              <img src="/icon/facebook.svg" alt="" />
-              <img src="/icon/twitter.svg" alt="" />
-              <img src="/icon/linkedin.svg" alt="" />
-              <img src="/icon/instagram-logo.svg" alt="" />
+              <Image height={20} width={20} src="/icon/facebook.svg" alt="" />
+              <Image height={20} width={20} src="/icon/twitter.svg" alt="" />
+              <Image height={20} width={20} src="/icon/linkedin.svg" alt="" />
+              <Image
+                height={20}
+                width={20}
+                src="/icon/instagram-logo.svg"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -65,13 +71,18 @@ const Footer = () => {
       <div className={styles.footerSectionBottom}>
         <p>&copy; 2024 Valuetainment Store. All rights reserved.</p>
         <div className={styles.payment}>
-          <img src="/icon/visa2.svg" alt="" />
-          <img src="/icon/apple-pay1.svg" alt="" />
-          <img src="/icon/diners-club1.svg" alt="" />
-          <img src="/icon/visa1.svg" alt="" />
-          <img src="/icon/amex1.svg" alt="" />
-          <img src="/icon/paypal1.svg" alt="" />
-          <img src="/icon/american-express.svg" alt="" />
+          <Image height={30} width={30} src="/icon/visa2.svg" alt="" />
+          <Image height={30} width={30} src="/icon/apple-pay1.svg" alt="" />
+          <Image height={30} width={30} src="/icon/diners-club1.svg" alt="" />
+          <Image height={30} width={30} src="/icon/visa1.svg" alt="" />
+          <Image height={30} width={30} src="/icon/amex1.svg" alt="" />
+          <Image height={30} width={30} src="/icon/paypal1.svg" alt="" />
+          <Image
+            height={30}
+            width={30}
+            src="/icon/american-express.svg"
+            alt=""
+          />
         </div>
       </div>
     </footer>
