@@ -9,3 +9,7 @@
 body {
   background-color: white !important;
 }
+.groupSection {
+  position: relative;
+  overflow-y: hidden;
+}

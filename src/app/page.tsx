@@ -9,8 +9,10 @@ export default function Home() {
     <div className={styles.page}>
       <HeroSection />
       <PromoSection />
-      <SignedCollection />
-      <MissionSection />
+      <div className="groupSection">
+        <SignedCollection />
+        <MissionSection />
+      </div>
     </div>
   );
 }

@@ -1,21 +1,54 @@
 .missionSection {
-  background-color: #f00;
+  background: linear-gradient(90deg, #ec3339 0%, #bb1117 100%);
   color: #fff;
-  padding: 60px 0;
+  padding: 0px 0;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+  height: 550px;
+}
+.missionLeftSection {
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  text-transform: uppercase;
+  height: 428px;
 }
 
-.missionSection h2 {
-  font-size: 3rem;
-  margin-bottom: 20px;
+.missionLeftSection p {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  top: 133px;
+  left: 64px;
+}
+.missionLeftSection .icon {
+  width: 221px;
+  height: 221px;
 }
 
-.missionSection p {
-  font-size: 1.5rem;
-  margin-bottom: 40px;
+.missionLeftSection .icon img {
+  width: 90%;
 }
-
-.missionSection .image img {
-  width: 100%;
-  max-width: 400px;
+.missionRightSection {
+  width: 25%;
+}
+.missionRightSection .image {
+  width: 571px;
+  height: 725px;
+  position: absolute;
+  z-index: 2;
+  bottom: -24px;
+  right: 120px;
+}
+.missionRightSection .image img {
+  width: 97%;
 }
