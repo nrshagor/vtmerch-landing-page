@@ -193,6 +193,128 @@
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
+  .footerSection {
+    padding: 5px 5px;
+    height: auto;
+  }
+  .footerSectionTop {
+    padding: 30px 10px 40px;
+  }
+  .footerSectionTop .logo {
+    width: 20%;
+    height: auto;
+  }
+
+  .logo img {
+    width: 50%;
+  }
+
+  .footerSectionTop h3 {
+    font-size: 36px;
+    text-align: start;
+  }
+  .footerSectionMiddle {
+    padding: 30px 10px 2px;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .footerSectionMiddleLeft {
+    width: 100%;
+    row-gap: 30px;
+  }
+  .footerSectionMiddleLeft h3 {
+    font-size: 18px;
+  }
+  .footerSectionMiddleRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 9px;
+    row-gap: 50px;
+    flex-wrap: wrap;
+    padding: 40px 10px;
+  }
+  .services,
+  .products,
+  .contact {
+    row-gap: 10px;
+  }
+
+  .services {
+    width: 50%;
+  }
+
+  .products {
+    width: 40%;
+  }
+  .contact {
+    width: 100%;
+  }
+
+  .contact h2,
+  .products h2,
+  .services h2 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    padding-bottom: 0px;
+  }
+  .contact p,
+  .products p,
+  .services p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #ffffffcc;
+  }
+  .contact h3 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #ffffffcc;
+  }
+  .contactIcon {
+    font-size: 14px;
+  }
+  .socialIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 20px;
+    cursor: pointer;
+  }
+  .socialIcon img:hover {
+    background: rgb(44, 44, 44);
+  }
+  .footerSectionBottom {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    row-gap: 20px;
+  }
+  .footerSectionBottom p {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  .payment {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+  }
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
